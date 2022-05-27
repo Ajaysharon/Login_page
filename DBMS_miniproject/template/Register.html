@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" type="text/css" href="Register.css">
+<title>Login Form Demo</title>
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <form action="" class="form" method="post" action="/Register">
+        <h2>Register</h2>
+        <div class="input-group">
+          <input type="text" name="loginUser" id="loginUser" required />
+          <label for="loginUser">Name</label>
+        </div>
+        <div class="input-group">
+          <input
+            type="date"
+            name="DOB"
+            id="DOB"
+            required
+          />
+          <label for="DOB">DOB</label>
+        </div>
+        <div class="input-group">
+          <input type="email" name="mail" id="mailid" required />
+          <label for="mailid">Mail Id</label>
+        </div>
+        <div class="input-group">
+          <input type="number" name="phone" id="phone" required />
+          <label for="phone">Contact Number</label>
+        </div>
+        <div class="input-group">
+          <input type="text" name="addr" id="addr" required />
+          <label for="addr">Resedential Address</label>
+        </div>
+        <div class="input-group">
+          <input type="text" name="username" id="username" required />
+          <label for="username">User Name</label>
+        </div>
+        <div class="input-group">
+          <input
+            type="password"
+            name="loginPassword"
+            id="loginPassword"
+            required
+          />
+          <label for="loginPassword">Password</label>
+        </div>
+        <div class="input-group">
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+            required
+          />
+          <label for="confirmPassword">Confirm Password</label>
+        </div>
+
+
+        <input type="submit" value="Submit" class="submit-btn" />
+      </form>
+    </div>
+  </body>
+</html>
